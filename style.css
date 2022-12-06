@@ -1,0 +1,22 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: green; */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 0px;
+  }
+  
+  .box {
+    justify-content: center;
+    background-color: white;
+    border: 5px solid gray;
+    font-size: 72pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18rem;
+    font-family: sans-serif;
+
+}
+  
